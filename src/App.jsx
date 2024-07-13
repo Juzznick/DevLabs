@@ -3,9 +3,14 @@ import './App.css'
 function App() {
 
   return (
-    <>
-      <h1 className='font-bold'>Welcome</h1>
-    </>
+    <div>
+        <ul className='flex justify-around'>
+          <li className=' '>HOME</li>
+          <li>EVENTS</li>
+          <li>GALLERY</li>
+          <li>CONTACT-ME</li>
+        </ul>
+    </div>
   )
 }
 

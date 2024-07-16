@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+  font-family: sfpro;
+  src: url("./assets/sfpro.OTF") format("opentype");
+}
+*{
+  font-family: 'Zen Dots';
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -15,4 +24,5 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: sfpro;
 }

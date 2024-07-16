@@ -3,13 +3,12 @@ import './App.css'
 function App() {
 
   return (
-    <div className='flex justify-evenly mt-3'>
-        <h1 className='w-2/5 flex justify-center'>Hello</h1>
-        <ul className='flex justify-around w-2/5'>
-          <li className=' '>HOME</li>
-          <li>EVENTS</li>
-          <li>GALLERY</li>
-          <li>CONTACT-ME</li>
+    <div className='flex h-1 justify-evenly mt-5'>
+        <ul className='flex flex-col justify-around w-2/5'>
+          <li className='font-bold text-2xl'>Home</li>
+          <li className='font-bold text-2xl'>Events</li>
+          <li className='font-bold text-2xl'>Gallery</li>
+          <li className='font-bold text-2xl'>Contact</li>
         </ul>
     </div>
   )

@@ -12,6 +12,7 @@ function App() {
           <li className='font-bold text-2xl hover:text-cyan-300 cursor-pointer'>HIREUS</li>
           <li className='font-bold text-2xl hover:text-cyan-300 cursor-pointer'>LOGIN</li>
         </ul>
+        <img src='img1.png' className='w-1/2 h-1/2'/>
     </div>
   )
 }

@@ -6,6 +6,15 @@ export default {
   ],
   theme: {
     extend: {
+      keyframes:{
+        wiggle:{
+          '0%, 100%': { transform: 'rotate(-3deg) translateY(-2rem)' },
+          '50%': { transform: 'rotate(3deg) translateY(2rem)' },
+        },
+      },
+      animation:{
+        wiggle: 'wiggle 5s ease-in-out infinite'
+      },
       colors:{
         'spclpurple':'#914FE5',
       },

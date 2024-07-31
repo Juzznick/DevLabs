@@ -11,6 +11,10 @@ export default {
           '0%, 100%': { transform: 'rotate(-3deg) translateY(2rem) translateX(-5rem)' },
           '50%': { transform: 'rotate(3deg) translateY(-2rem) translateX(5rem)' },
         },
+        flutter:{
+          '0%, 100%': { 'color: #ffffff'},
+          '50%': {'color:#000000' },
+        },
       },
       animation:{
         wiggle: 'wiggle 5s ease-in-out infinite'

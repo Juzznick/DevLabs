@@ -1,9 +1,9 @@
-function Activities(){
+function Events(){
     return(
         <div className='h-screen'>   
-         <h3>Hey</h3>
+            <h1>Upcoming Events</h1>
         </div>
         
     );
 }
-export default Activities
+export default Events

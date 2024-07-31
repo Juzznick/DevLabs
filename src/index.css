@@ -8,10 +8,13 @@
   src: url("./assets/sfpro.OTF") format("opentype");
 }
 *{
-  font-family: 'Zen Dots';
+  font-family: 'Wallpoet';
   background-color: #141414;
   margin: 0;
   box-sizing: border-box;
+}
+body{
+  overflow: hidden;
 }
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;

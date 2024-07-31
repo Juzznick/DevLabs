@@ -8,8 +8,8 @@ export default {
     extend: {
       keyframes:{
         wiggle:{
-          '0%, 100%': { transform: 'rotate(-3deg) translateY(-2rem)' },
-          '50%': { transform: 'rotate(3deg) translateY(2rem)' },
+          '0%, 100%': { transform: 'rotate(-3deg) translateY(2rem) translateX(-5rem)' },
+          '50%': { transform: 'rotate(3deg) translateY(-2rem) translateX(5rem)' },
         },
       },
       animation:{

@@ -1,6 +1,6 @@
 import './App.css'
 
-function App() {
+function Home() {
 
   return (
     <div className='flex flex-col h-screen items-center pt-5'>
@@ -23,4 +23,4 @@ function App() {
   )
 }
 
-export default App
+export default Home

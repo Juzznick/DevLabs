@@ -16,7 +16,7 @@ export default {
         wiggle: 'wiggle 5s ease-in-out infinite'
       },
       colors: {
-        'spclpurple': '#914FE5',
+        'spclpurple': '#6A43FE',
       },
     },
   },
